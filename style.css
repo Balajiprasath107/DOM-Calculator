@@ -1,0 +1,97 @@
+body{
+    background-color: #ffffff;
+}
+#title{
+    text-align: center;
+    margin-bottom: 0;
+}
+#description{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#calculator {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 360px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 10px 10px;
+    margin-top: 15px;
+    background-color: rgb(254, 114, 76);
+    border-radius: 20px;
+    box-shadow: 8px 8px 1px rgba(184, 70, 39, 0.7);    
+  }
+#result{
+    width: 350px;
+    height: 90px;
+    background-color: rgb(247, 247, 87);
+    border-radius: 20px;
+    margin: 20px auto;
+    text-align: right;
+    font-size: 80px;
+}
+
+#buttonArea{
+    width: 350px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    justify-content: space-evenly;
+    align-items:self-start;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.buttonM{
+    width: 70px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(190, 59, 146);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 1px rgb(128, 27, 94);    
+    transition: box-shadow ease color ease;
+}
+.buttonSymbol{
+    width: 70px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(245, 61, 129);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 1px rgb(209, 29, 95);    
+    transition: box-shadow ease color ease;
+}
+.button-number{
+    width: 70px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(74, 70, 188);
+    border-radius: 10px;
+    border: none;
+    vertical-align: top;
+    box-shadow: 3px 3px 1px rgb(51, 48, 148);    
+    transition: box-shadow ease color ease;
+}
+.button-Equal{
+    width: 155px;
+    height: 40px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(196, 101, 27);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 1px rgb(114, 50, 0);    
+    transition: box-shadow color transform ease;
+}
+
+button:active{
+    color: #fff;
+    transform:translate(3px,3px);
+    box-shadow: 0 0px 0px ;    
+}
