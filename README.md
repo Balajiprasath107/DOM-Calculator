@@ -1,6 +1,6 @@
 # DOM-Calculator
 ### Frontend deployed url
-  
+  https://magnificent-moxie-c5b988.netlify.app/
 ### Features
    <ul> 
     <li> used DOM for creating all HTML elements.</li>
