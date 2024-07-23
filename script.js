@@ -373,7 +373,7 @@ buttonEqual.addEventListener('click',function run(){
         default:
             result =  displayscreen.value
     }
-    displayScr(result)
+    displayscreen.value=(result)
     disp=''
     numarr=[]
 })
